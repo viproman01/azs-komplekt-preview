@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Прототип каталога АО «АЗС Комплект», Самара. Оборудование для АЗС, насосы, колонки, резервуары и запчасти. Параметры насоса КМН 125-100-160.">
   <meta name="color-scheme" content="light">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self' file:; style-src 'self' file:; img-src 'self' file: data:; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>АЗС Комплект — оборудование для АЗС и нефтебаз</title>
-  <link rel="icon" href="assets/logo.png" type="image/png">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self' file:; style-src 'self' file:; img-src 'self' file: data:; connect-src 'none'; font-src 'none'; frame-src https://www.openstreetmap.org; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>АЗС Комплект — оборудование для АЗС</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/main.js" defer></script>
 </head>
@@ -17,12 +19,12 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#" aria-label="АО «АЗС Комплект» — на главную"><img src="assets/logo.png" width="203" height="149" alt="АЗС Комплект"><span>Оборудование<br>для АЗС и нефтебаз</span></a>
+      <a class="brand" href="#" aria-label="АО «АЗС Комплект» — на главную"><img src="assets/logo.png" width="203" height="149" alt="АЗС Комплект"><span>Оборудование<br>для АЗС</span></a>
       <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
       <nav class="site-nav" id="site-nav" aria-label="Основное меню">
-        <a href="#catalog">Каталог</a><a href="#advantages">Подход к работе</a><a href="#about">О компании</a><a href="#contacts">Контакты</a>
+        <a href="#catalog">Каталог</a><a href="#advantages">Почему мы</a><a href="#supply">Поставка и сервис</a><a href="#about">О компании</a><a href="#contacts">Контакты</a>
       </nav>
-      <a class="header-phone" href="tel:+79225353969"><span>Обсудим вашу задачу</span>8 922 535 39 69 <span class="phone-arrow" aria-hidden="true">↗</span></a>
+      <a class="header-phone" href="tel:+79225353969"><span>Обсудим вашу задачу</span>8 922 535-39-69 <span class="phone-arrow" aria-hidden="true">↗</span></a>
     </div>
   </header>
 
@@ -37,7 +39,7 @@
           <p class="temporary-note">Описание предложения — временный текст, уточнить.</p>
         </div>
         <div class="hero-visual">
-          <div class="drawing-topline"><span>НАСОСНОЕ ОБОРУДОВАНИЕ</span><span>01 / 04</span></div>
+          <div class="drawing-topline"><span>НАСОСНОЕ ОБОРУДОВАНИЕ</span><span>КМН</span></div>
           <span class="technical-cross cross-one" aria-hidden="true">+</span><span class="technical-cross cross-two" aria-hidden="true">+</span>
           <div class="drawing-circle" aria-hidden="true"></div>
           <span class="drawing-guide guide-top" aria-hidden="true"></span><span class="drawing-guide guide-bottom" aria-hidden="true"></span>
@@ -59,10 +61,47 @@
       <div class="container">
         <div class="section-heading"><div><p class="eyebrow section-number">01 / КАТАЛОГ</p><h2 id="catalog-title">Каждой задаче —<br>свой компонент.</h2></div><p class="section-intro">Основные направления оборудования.<br>Предварительная структура каталога:<br><span class="muted">ассортимент и описания — уточнить.</span></p></div>
         <div class="category-grid">
-          <a class="category-card" href="#pump"><div class="category-top"><span>01</span><span class="round-arrow" aria-hidden="true">↗</span></div><div class="category-art"><img src="assets/category-pumps.svg" width="320" height="210" loading="lazy" alt="Схематичная заглушка: насос"></div><span class="image-caption">Иллюстрация-заглушка</span><h3>Насосы</h3><p>Центробежные насосы<br>и насосные агрегаты</p><span class="category-bottom">Смотреть КМН 125-100-160 <span aria-hidden="true">→</span></span></a>
-          <a class="category-card" href="#request" data-category="Колонки"><div class="category-top"><span>02</span><span class="round-arrow" aria-hidden="true">↗</span></div><div class="category-art"><img src="assets/category-dispensers.svg" width="320" height="210" loading="lazy" alt="Схематичная заглушка: топливораздаточная колонка"></div><span class="image-caption">Иллюстрация-заглушка</span><h3>Колонки</h3><p>Топливораздаточное<br>оборудование для АЗС</p><span class="category-bottom">Обсудить подбор <span aria-hidden="true">→</span></span></a>
-          <a class="category-card" href="#request" data-category="Резервуары"><div class="category-top"><span>03</span><span class="round-arrow" aria-hidden="true">↗</span></div><div class="category-art"><img src="assets/category-tanks.svg" width="320" height="210" loading="lazy" alt="Схематичная заглушка: горизонтальный резервуар"></div><span class="image-caption">Иллюстрация-заглушка</span><h3>Резервуары</h3><p>Резервуары и оборудование<br>для хранения топлива</p><span class="category-bottom">Обсудить подбор <span aria-hidden="true">→</span></span></a>
-          <a class="category-card" href="#request" data-category="Запчасти"><div class="category-top"><span>04</span><span class="round-arrow" aria-hidden="true">↗</span></div><div class="category-art"><img src="assets/category-parts.svg" width="320" height="210" loading="lazy" alt="Схематичная заглушка: фланец и крыльчатка"></div><span class="image-caption">Иллюстрация-заглушка</span><h3>Запчасти</h3><p>Узлы и комплектующие<br>для вашего оборудования</p><span class="category-bottom">Обсудить подбор <span aria-hidden="true">→</span></span></a>
+          <article class="category-card" aria-labelledby="category-pumps-title">
+            <div class="category-top"><span>НАСОСНОЕ ОБОРУДОВАНИЕ</span><span class="round-arrow" aria-hidden="true">↗</span></div>
+            <div class="category-art"><img src="assets/category-pumps.svg" width="320" height="210" loading="lazy" alt="Схематичная заглушка: насос"></div>
+            <span class="image-caption">Иллюстрация-заглушка</span><h3 id="category-pumps-title">Насосы</h3>
+            <p>Оборудование для перекачивания. Подбор по рабочей среде и параметрам — уточнить.</p>
+            <p class="category-detail">Подкатегории и другие позиции — уточнить.</p>
+            <a class="text-link category-model" href="#pump">КМН 125-100-160: данные шильдика <span aria-hidden="true">↓</span></a>
+            <a class="button button-primary category-request" href="#request" data-category="Насосы" aria-label="Запросить: Насосы">Запросить <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="category-card" aria-labelledby="category-dispensers-title">
+            <div class="category-top"><span>ОТПУСК ТОПЛИВА</span><span class="round-arrow" aria-hidden="true">↗</span></div>
+            <div class="category-art"><img src="assets/category-dispensers.svg" width="320" height="210" loading="lazy" alt="Схематичная заглушка: топливораздаточная колонка"></div>
+            <span class="image-caption">Иллюстрация-заглушка</span><h3 id="category-dispensers-title">Топливораздаточные колонки</h3>
+            <p>Оборудование для отпуска топлива на АЗС. Исполнение и комплектацию — уточнить.</p>
+            <p class="category-detail">Подкатегории и позиции — уточнить.</p>
+            <a class="button button-primary category-request" href="#request" data-category="Топливораздаточные колонки" aria-label="Запросить: Топливораздаточные колонки">Запросить <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="category-card" aria-labelledby="category-tanks-title">
+            <div class="category-top"><span>ХРАНЕНИЕ</span><span class="round-arrow" aria-hidden="true">↗</span></div>
+            <div class="category-art"><img src="assets/category-tanks.svg" width="320" height="210" loading="lazy" alt="Схематичная заглушка: горизонтальный резервуар"></div>
+            <span class="image-caption">Иллюстрация-заглушка</span><h3 id="category-tanks-title">Резервуары и ёмкости</h3>
+            <p>Решения для хранения. Объём, материал и условия применения — уточнить.</p>
+            <p class="category-detail">Подкатегории и позиции — уточнить.</p>
+            <a class="button button-primary category-request" href="#request" data-category="Резервуары и ёмкости" aria-label="Запросить: Резервуары и ёмкости">Запросить <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="category-card" aria-labelledby="category-parts-title">
+            <div class="category-top"><span>КОМПЛЕКТУЮЩИЕ</span><span class="round-arrow" aria-hidden="true">↗</span></div>
+            <div class="category-art"><img src="assets/category-parts.svg" width="320" height="210" loading="lazy" alt="Схематичная заглушка: фланец и крыльчатка"></div>
+            <span class="image-caption">Иллюстрация-заглушка</span><h3 id="category-parts-title">Запчасти и комплектующие</h3>
+            <p>Подбор узлов к оборудованию. Совместимость и состав комплекта — уточнить.</p>
+            <p class="category-detail">Подкатегории и позиции — уточнить.</p>
+            <a class="button button-primary category-request" href="#request" data-category="Запчасти и комплектующие" aria-label="Запросить: Запчасти и комплектующие">Запросить <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="category-card" aria-labelledby="category-service-title">
+            <div class="category-top"><span>СОПРОВОЖДЕНИЕ</span><span class="round-arrow" aria-hidden="true">↗</span></div>
+            <div class="category-art"><img src="assets/category-service.svg" width="360" height="240" loading="lazy" alt="Схематичная заглушка: инструменты и манометр"></div>
+            <span class="image-caption">Иллюстрация-заглушка</span><h3 id="category-service-title">Сервис и обслуживание</h3>
+            <p>Обсуждение обслуживания оборудования. Доступность и состав работ — уточнить.</p>
+            <p class="category-detail">Виды обслуживания и позиции — уточнить.</p>
+            <a class="button button-primary category-request" href="#request" data-category="Сервис и обслуживание" aria-label="Запросить: Сервис и обслуживание">Запросить <span aria-hidden="true">↗</span></a>
+          </article>
         </div>
       </div>
     </section>
@@ -91,36 +130,92 @@
     </section>
 
     <section class="section advantages-section" id="advantages" aria-labelledby="advantages-title">
-      <div class="container"><div class="section-heading"><div><p class="eyebrow section-number">03 / ПОДХОД К РАБОТЕ</p><h2 id="advantages-title">Начинаем с задачи.<br>Внимательны к деталям.</h2></div><p class="section-intro">Преимущества и формат работы —<br>временные тексты для согласования.<br><span class="muted">Условия и доступные услуги уточнить.</span></p></div>
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow section-number">ПОДХОД К РАБОТЕ</p><h2 id="advantages-title">Почему мы</h2></div><p class="section-intro">Принципы для обсуждения вашей задачи.<br>Формат работы и условия — уточнить.</p></div>
         <div class="advantages-grid">
-          <article class="advantage"><span class="advantage-number">01</span><div class="line-icon" aria-hidden="true">◎</div><h3>Подбор под задачу</h3><p>Подача, напор, рабочая среда и условия эксплуатации — отправная точка для обсуждения оборудования.</p><span class="temporary-note">Предлагаемый подход · уточнить</span></article>
-          <article class="advantage"><span class="advantage-number">02</span><div class="line-icon" aria-hidden="true">⌘</div><h3>Внимание к совместимости</h3><p>Модель, присоединительные размеры и комплектация — детали, которые важно проверить до заказа.</p><span class="temporary-note">Предлагаемый подход · уточнить</span></article>
-          <article class="advantage"><span class="advantage-number">03</span><div class="line-icon" aria-hidden="true">▤</div><h3>Понятные параметры</h3><p>Характеристики по исходным данным. Состав документации и условия поставки согласуются отдельно.</p><span class="temporary-note">Предлагаемый подход · уточнить</span></article>
+          <article class="advantage"><div class="line-icon" aria-hidden="true">◎</div><h3>Подбор под задачу</h3><p>Начать с рабочей среды, нужных параметров и условий эксплуатации.</p></article>
+          <article class="advantage"><div class="line-icon" aria-hidden="true">⌘</div><h3>Внимание к совместимости</h3><p>Обсудить модель, присоединительные размеры и состав комплекта.</p></article>
+          <article class="advantage"><div class="line-icon" aria-hidden="true">▤</div><h3>Понятные параметры</h3><p>Сопоставить характеристики с исходными данными и вашей задачей.</p></article>
+          <article class="advantage"><div class="line-icon" aria-hidden="true">↗</div><h3>Поставка по России</h3><p>Возможность доставки, направление и условия — уточнить.</p></article>
+          <article class="advantage"><div class="line-icon" aria-hidden="true">⚒</div><h3>Сервис и сопровождение</h3><p>Доступность обслуживания и перечень работ — уточнить.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section supply-section" id="supply" aria-labelledby="supply-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow section-number">ОТ ЗАДАЧИ К РЕШЕНИЮ</p><h2 id="supply-title">Поставка и сервис</h2></div><p class="section-intro">Предварительный порядок работы.<br>Доступность услуг и условия — уточнить.</p></div>
+        <ol class="work-steps" aria-label="Предлагаемые этапы работы">
+          <li><h3>Заявка</h3><p>Оборудование и задача — уточнить.</p><span aria-hidden="true">→</span></li>
+          <li><h3>Подбор</h3><p>Параметры и совместимость — уточнить.</p><span aria-hidden="true">→</span></li>
+          <li><h3>Предложение</h3><p>Комплект и условия — уточнить.</p><span aria-hidden="true">→</span></li>
+          <li><h3>Поставка</h3><p>Маршрут и порядок передачи — уточнить.</p><span aria-hidden="true">→</span></li>
+          <li><h3>Сервис</h3><p>Формат сопровождения — уточнить.</p></li>
+        </ol>
+        <div class="services-grid">
+          <article class="service-card"><span class="line-icon" aria-hidden="true">↗</span><h3>Поставка оборудования</h3><p>Комплектация, наличие и условия доставки — уточнить.</p><a class="text-link" href="#request" data-category="Поставка оборудования">Обсудить поставку <span aria-hidden="true">↗</span></a></article>
+          <article class="service-card"><span class="line-icon" aria-hidden="true">⌘</span><h3>Монтаж и пусконаладка</h3><p>Возможность выполнения, состав работ и требования к объекту — уточнить.</p><a class="text-link" href="#request" data-category="Монтаж и пусконаладка">Обсудить работы <span aria-hidden="true">↗</span></a></article>
+          <article class="service-card"><span class="line-icon" aria-hidden="true">⚒</span><h3>Сервисное обслуживание</h3><p>Доступность услуги, перечень операций и условия обслуживания — уточнить.</p><a class="text-link" href="#request" data-category="Сервис и обслуживание">Обсудить сервис <span aria-hidden="true">↗</span></a></article>
         </div>
       </div>
     </section>
 
     <section class="section about-section" id="about" aria-labelledby="about-title"><div class="container about-grid">
-      <div><p class="eyebrow section-number">04 / О КОМПАНИИ</p><h2 id="about-title">АЗС Комплект.<br>Самара.</h2><span class="pill temporary-pill">Временный текст · уточнить</span></div>
-      <div class="about-copy"><p class="about-lead">Оборудование — часть большой системы. Важно, чтобы каждый компонент соответствовал своей задаче.</p><p>АО «АЗС Комплект» — компания из Самары. В этом прототипе представлены основные направления: насосное оборудование, колонки, резервуары и комплектующие.</p><p class="muted">Специализацию, историю компании, географию поставок и доступные услуги необходимо уточнить у заказчика. Описание подготовлено для согласования.</p><a class="text-link" href="#contacts">Связаться с компанией <span aria-hidden="true">↗</span></a></div>
+      <div><p class="eyebrow section-number">О КОМПАНИИ</p><h2 id="about-title">АЗС Комплект.<br>Самара.</h2><span class="pill temporary-pill">Временный текст · уточнить</span></div>
+      <div class="about-copy"><p class="about-lead">Оборудование — часть большой системы. Важно, чтобы каждый компонент соответствовал своей задаче.</p><p>АО «АЗС Комплект» — компания из Самары. В этом прототипе представлены основные направления: насосное оборудование, колонки, резервуары, комплектующие и сервис (доступность — уточнить).</p><p class="muted">Специализацию, историю компании, географию поставок и доступные услуги необходимо уточнить у заказчика. Описание подготовлено для согласования.</p><a class="text-link" href="#contacts">Связаться с компанией <span aria-hidden="true">↗</span></a></div>
     </div></section>
 
     <section class="request-section" id="request" aria-labelledby="request-title"><div class="container request-grid">
-      <div class="request-copy"><p class="eyebrow">05 / ВАША ЗАДАЧА</p><h2 id="request-title">Нужен конкретный<br>компонент?<br><em>Начнём с него.</em></h2><p>Укажите оборудование и основные параметры.<br>Так проще начать предметный разговор.</p><div class="demo-callout"><span class="demo-symbol" aria-hidden="true">i</span><p><strong>Это демонстрационная форма</strong>Данные проверяются только в браузере,<br>не сохраняются и никуда не отправляются.</p></div><a class="request-phone" href="tel:+79225353969">8 922 535 39 69 <span aria-hidden="true">↗</span></a><span class="request-phone-caption">Для реального обращения позвоните нам</span></div>
+      <div class="request-copy">
+        <p class="eyebrow">ВАША ЗАДАЧА</p><h2 id="request-title">Нужен конкретный<br>компонент?<br><em>Начнём с него.</em></h2>
+        <p>Укажите оборудование и основные параметры.<br>Так проще начать предметный разговор.</p>
+        <div class="demo-callout"><span class="demo-symbol" aria-hidden="true">i</span><p><strong>Заявка через WhatsApp</strong>После проверки откроется WhatsApp с текстом заявки. Отправьте сообщение в открывшемся чате. Текст также останется здесь.</p></div>
+        <a class="request-phone" href="tel:+79225353969">8 922 535-39-69 <span aria-hidden="true">↗</span></a><span class="request-phone-caption">Можно обсудить задачу по телефону</span>
+      </div>
       <form class="request-form" id="request-form" novalidate aria-describedby="form-demo-note">
-        <h3>Обсудим оборудование</h3><p class="form-intro" id="form-demo-note">Демо-заявка · поля со звёздочкой обязательны</p>
-        <div class="form-row"><div class="field"><label for="name">Ваше имя <span aria-hidden="true">*</span></label><input id="name" name="name" type="text" placeholder="Как к вам обращаться" autocomplete="off" minlength="2" maxlength="80" required aria-describedby="name-error"><span class="field-error" id="name-error"></span></div><div class="field"><label for="phone">Телефон <span aria-hidden="true">*</span></label><input id="phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" inputmode="tel" autocomplete="off" maxlength="30" required aria-describedby="phone-error"><span class="field-error" id="phone-error"></span></div></div>
-        <div class="field"><label for="equipment">Что вас интересует</label><select id="equipment" name="equipment"><option value="">Выберите оборудование</option value="КМН 125-100-160">Насос КМН 125-100-160</option value="Насосы">Другие насосы</option><option value="Колонки">Топливораздаточные колонки</option><option value="Резервуары">Резервуары</option><option value="Запчасти">Запчасти и комплектующие</option><option value="Другое">Другое оборудование</option></select></div>
+        <h3>Обсудим оборудование</h3><p class="form-intro" id="form-demo-note">Поля со звёздочкой обязательны</p>
+        <div class="form-row">
+          <div class="field"><label for="name">Ваше имя <span aria-hidden="true">*</span></label><input id="name" name="name" type="text" placeholder="Как к вам обращаться" autocomplete="name" minlength="2" maxlength="80" required aria-describedby="name-error"><span class="field-error" id="name-error"></span></div>
+          <div class="field"><label for="phone">Телефон <span aria-hidden="true">*</span></label><input id="phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" inputmode="tel" autocomplete="tel" maxlength="30" required aria-describedby="phone-error"><span class="field-error" id="phone-error"></span></div>
+        </div>
+        <div class="field"><label for="equipment">Что вас интересует</label><select id="equipment" name="equipment">
+          <option value="">Выберите категорию или оборудование</option><option value="КМН 125-100-160">Насос КМН 125-100-160</option><option value="Насосы">Насосы</option><option value="Топливораздаточные колонки">Топливораздаточные колонки</option><option value="Резервуары и ёмкости">Резервуары и ёмкости</option><option value="Запчасти и комплектующие">Запчасти и комплектующие</option><option value="Сервис и обслуживание">Сервис и обслуживание</option><option value="Поставка оборудования">Поставка оборудования</option><option value="Монтаж и пусконаладка">Монтаж и пусконаладка</option><option value="Другое">Другое / уточнить</option>
+        </select></div>
         <div class="field"><label for="message">Несколько слов о задаче <span class="optional">/ необязательно</span></label><textarea id="message" name="message" rows="3" maxlength="2000" placeholder="Модель, рабочая среда, нужные параметры…"></textarea></div>
-        <button class="button button-primary submit-button" type="submit">Подготовить заявку <span aria-hidden="true">↗</span></button><p class="form-footnote">Кнопка проверяет заполнение. Отправки менеджеру нет.</p><div class="form-status" id="form-status" role="status" aria-live="polite" hidden></div>
-        <noscript><p class="no-script-note">Для проверки формы включите JavaScript. Связаться с компанией можно по телефону выше.</p></noscript>
+        <button class="button button-primary submit-button" type="submit">Сформировать заявку <span aria-hidden="true">↗</span></button>
+        <p class="form-footnote">Откроется WhatsApp с заполненным сообщением. Отправку подтверждаете вы в чате.</p>
+        <p class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+        <div class="request-result" id="request-result" role="region" aria-labelledby="result-title" tabindex="-1" hidden>
+          <h4 id="result-title">Заявка сформирована</h4><pre id="request-text" class="request-text"></pre>
+          <div class="result-actions"><a class="button button-primary" id="whatsapp-link" target="_blank" rel="noopener noreferrer">Написать в WhatsApp <span aria-hidden="true">↗</span></a><a class="button button-secondary" id="call-link" href="tel:+79225353969">Позвонить <span aria-hidden="true">↗</span></a></div>
+          <p class="result-note">Если новая вкладка не открылась, нажмите «Написать в WhatsApp». Проверьте текст и отправьте его в чате.</p>
+        </div>
+        <noscript><p class="no-script-note">Для формирования заявки включите JavaScript или позвоните по номеру 8 922 535-39-69.</p></noscript>
       </form>
     </div></section>
 
-    <section class="section contacts-section" id="contacts" aria-labelledby="contacts-title"><div class="container"><div class="section-heading"><div><p class="eyebrow section-number">06 / КОНТАКТЫ</p><h2 id="contacts-title">На связи.<br>По существу.</h2></div><p class="section-intro">Контакты предоставлены заказчиком.<br>Режим работы и схему проезда<br>необходимо уточнить.</p></div><div class="contacts-grid"><div class="contact-block"><span class="tiny-label">ТЕЛЕФОН</span><a class="contact-phone" href="tel:+79225353969">8 922 535 39 69 <span aria-hidden="true">↗</span></a><span class="muted">АО «АЗС Комплект»</span></div><div class="contact-block address-block"><span class="tiny-label">АДРЕС</span><address>г. Самара, Промышленная зона,<br>№ 127 участок, объект 43</address><span class="muted">Перед посещением уточните маршрут по телефону</span></div></div></div></section>
+    <section class="section contacts-section" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow section-number">КОНТАКТЫ</p><h2 id="contacts-title">На связи.<br>По существу.</h2></div><p class="section-intro">Режим работы и схему проезда<br>необходимо уточнить.</p></div>
+        <div class="contacts-grid">
+          <div class="contact-details">
+            <div class="contact-block"><span class="tiny-label">ТЕЛЕФОН</span><a class="contact-phone" href="tel:+79225353969">8 922 535-39-69 <span aria-hidden="true">↗</span></a></div>
+            <div class="contact-block address-block"><span class="tiny-label">АДРЕС</span><address>АО «АЗС Комплект», г. Самара,<br>Промышленная зона, № 127 участок, объект 43</address><span class="muted">Перед посещением уточните маршрут по телефону</span></div>
+          </div>
+          <div class="map-block" aria-labelledby="map-title">
+            <h3 id="map-title">Самара на карте</h3><p class="map-note">Точное положение на карте — уточнить. Показан город, без отметки объекта.</p>
+            <div class="map-container" id="map-container"><div class="map-placeholder" id="map-placeholder"><span class="map-symbol" aria-hidden="true">⌖</span><p>Карта загрузится по вашему нажатию</p><span>До этого соединения с картографическим сервисом нет.</span></div></div>
+            <button type="button" class="button button-primary map-load" id="map-load" aria-controls="map-container" aria-describedby="map-status">Показать карту <span aria-hidden="true">↗</span></button>
+            <p class="map-status" id="map-status" role="status" aria-live="polite" aria-atomic="true">Интерактивная карта OpenStreetMap загружается по запросу.</p>
+            <div class="map-links"><a class="text-link" href="https://yandex.ru/maps/?text=Самара%2C%20Промышленная%20зона%2C%20127%20участок" target="_blank" rel="noopener noreferrer">Открыть в Яндекс Картах <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.openstreetmap.org/#map=11/53.225/50.15" target="_blank" rel="noopener noreferrer">Открыть в OpenStreetMap <span aria-hidden="true">↗</span></a></div>
+            <noscript><p class="map-note">Для встроенной карты нужен JavaScript. Карту можно открыть по ссылкам выше.</p></noscript>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer"><div class="container"><div class="footer-top"><a class="footer-wordmark" href="#">АЗС<span>КОМПЛЕКТ</span></a><p>Оборудование для АЗС и нефтебаз.<br>Внимание к каждому компоненту.</p><a class="back-top" href="#">Наверх <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><span>АО «АЗС Комплект» · Самара</span><span>Прототип для согласования</span></div><p class="footer-disclaimer">Описания компании, направлений и преимуществ — временные тексты, уточнить. Цена, наличие, сроки, услуги и документы не подтверждены. Иллюстрации оборудования — заглушки. Технические параметры и обозначения насоса перенесены с предоставленного шильдика.</p></div></footer>
+  <footer class="site-footer"><div class="container"><div class="footer-top"><a class="footer-wordmark" href="#">АЗС<span>КОМПЛЕКТ</span></a><p>Оборудование для АЗС.<br>Внимание к каждому компоненту.</p><a class="back-top" href="#">Наверх <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><span>АО «АЗС Комплект» · Самара</span><span>Прототип для согласования</span></div><p class="footer-disclaimer">Описания компании, направлений и преимуществ — временные тексты, уточнить. Цена, наличие, сроки, услуги и документы не подтверждены. Иллюстрации оборудования — заглушки. Технические параметры и обозначения насоса перенесены с предоставленного шильдика.</p></div></footer>
 
   <dialog class="plate-dialog" id="plate-dialog" aria-labelledby="plate-title"><div class="dialog-heading"><div><span class="eyebrow">ИСХОДНЫЕ ДАННЫЕ</span><h2 id="plate-title">Шильдик насоса</h2></div><button type="button" class="dialog-close" data-close-plate aria-label="Закрыть фото шильдика">×</button></div><img src="order-photo.jpg" width="1400" height="795" alt="Фото шильдика насоса КМН 125-100-160, заводской номер 1678. Все параметры приведены в таблице на странице."><p>Фото предоставлено заказчиком. Нажмите Esc или кнопку ×, чтобы закрыть.</p></dialog>
 </body>
