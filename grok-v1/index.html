@@ -1,0 +1,39 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>АЗС Комплект — оборудование для АЗС (ПРОТОТИП)</title>
+<style>
+:root{--b:#1f5fae;--d:#0e2a4d;--g:#f3f6fa}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;color:#1c2733}
+header{background:var(--d);color:#fff;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+header b{font-size:20px;letter-spacing:.5px}header a{color:#fff;text-decoration:none;margin-left:18px}
+.hero{background:linear-gradient(135deg,var(--d),var(--b));color:#fff;padding:70px 5%}
+.hero h1{font-size:38px;margin:0 0 12px;max-width:760px}.hero p{max-width:640px;opacity:.9}
+.btn{display:inline-block;background:#ffb400;color:#1c2733;padding:13px 26px;border-radius:6px;font-weight:700;text-decoration:none;margin-top:14px}
+section{padding:48px 5%}section:nth-child(even){background:var(--g)}h2{margin:0 0 22px;color:var(--d)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:#fff;border:1px solid #dde4ee;border-radius:10px;padding:20px}.card h3{margin:0 0 8px;color:var(--b)}
+.ph{height:120px;border-radius:8px;background:#dfe7f2;display:flex;align-items:center;justify-content:center;color:#7b8aa0;font-size:13px;margin-bottom:12px}
+table{border-collapse:collapse;width:100%;background:#fff}td,th{border:1px solid #dde4ee;padding:9px 12px;text-align:left}th{background:var(--g)}
+form{display:grid;gap:12px;max-width:460px}input,textarea{padding:11px;border:1px solid #c6d0de;border-radius:6px;font:inherit}
+footer{background:var(--d);color:#cdd8e8;padding:24px 5%;font-size:14px}
+.note{background:#fff3cd;color:#664d03;padding:8px 5%;font-size:13px;text-align:center}
+</style></head><body>
+<div class="note">ПРОТОТИП для согласования: тексты, цены и фото — временные, нужно подтверждение заказчика</div>
+<header><b>АЗС КОМПЛЕКТ</b><nav><a href="#cat">Каталог</a><a href="#pump">Насосы</a><a href="#about">О компании</a><a href="#contacts">Контакты</a></nav></header>
+<div class="hero"><h1>Оборудование для АЗС: насосы, колонки, резервуары, комплектация под ключ</h1>
+<p>Поставка взрывозащищённого оборудования (маркировка Ex, EAC, ТУ), монтаж и сервис. Работаем по России.</p><a class="btn" href="#req">Получить коммерческое предложение</a></div>
+<section id="cat"><h2>Каталог</h2><div class="grid">
+<div class="card"><div class="ph">фото</div><h3>Электронасосы</h3><p>Центробежные насосы для нефтепродуктов (серия КМН и др.).</p></div>
+<div class="card"><div class="ph">фото</div><h3>Топливораздаточные колонки</h3><p>[уточнить ассортимент у заказчика]</p></div>
+<div class="card"><div class="ph">фото</div><h3>Резервуары и ёмкости</h3><p>[уточнить ассортимент у заказчика]</p></div>
+<div class="card"><div class="ph">фото</div><h3>Запчасти и комплектующие</h3><p>[уточнить ассортимент у заказчика]</p></div></div></section>
+<section id="pump"><h2>Пример карточки: электронасос центробежный КМН 125-100-160</h2>
+<table><tr><th>Параметр</th><th>Значение</th></tr>
+<tr><td>Модель</td><td>КМН 125-100-160</td></tr><tr><td>Подача</td><td>160 м³/ч</td></tr><tr><td>Напор</td><td>30 м</td></tr>
+<tr><td>Мощность</td><td>22 кВт</td></tr><tr><td>Напряжение</td><td>380 В</td></tr><tr><td>Частота вращения</td><td>3000 об/мин</td></tr>
+<tr><td>Масса</td><td>231 кг</td></tr><tr><td>Взрывозащита</td><td>II Gb c IIB T6 X</td></tr><tr><td>ТУ</td><td>3631-029-07533892-96</td></tr></table>
+<p style="font-size:13px;color:#667">Данные взяты с шильдика, присланного заказчиком (год выпуска 2025, сделано в России).</p></section>
+<section id="about"><h2>О компании</h2><p>АО «АЗС Комплект», г. Самара. [текст о компании, опыт, сертификаты — получить от заказчика]</p></section>
+<section id="req"><h2>Запросить предложение</h2><form onsubmit="alert('Прототип: форма пока не отправляет данные');return false">
+<input placeholder="Имя" required><input placeholder="Телефон" required><textarea rows="4" placeholder="Что нужно (модель, количество)"></textarea><button class="btn" style="border:0;cursor:pointer">Отправить</button></form></section>
+<section id="contacts"><h2>Контакты</h2><p>Телефон: 8 922 535 39 69<br>АО «АЗС Комплект», г. Самара, Промышленная зона, № 127 участок, объект 43</p></section>
+<footer>© АО «АЗС Комплект». Прототип сайта.</footer></body></html>
